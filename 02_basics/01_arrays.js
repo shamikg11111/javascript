@@ -43,3 +43,20 @@ console.log("B",arr)
 console.log(mynewar1)
 
 // read about slice and splice 
+
+
+
+
+
+
+// concat- used to club two or more arrays together 
+const arr12=[4,5,6,7]
+const arr3=["shamik", "ganguli"]
+const allh=arr12.concat(arr3) 
+console.log(allh)
+
+// spread operator - also used to club arrays together
+
+const allh1= [...arr12,...arr3]
+console.log(allh1)
+// this does the same thing as concat but more readable
